@@ -12,7 +12,7 @@
         let cantidadTuq = parseInt(prompt("ingrese cantidad de tuqueras que quiere comprar, el valor es por 10U"));
         console.log(cantidadTuq);
         var totalTuqueras = precioTuqueras * cantidadTuq;
-        console.log(totalTuqueras);
+        return totalTuqueras
       }
       
       let Carro = document.getElementById("cart")
